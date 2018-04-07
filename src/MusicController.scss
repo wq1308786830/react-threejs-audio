@@ -1,0 +1,23 @@
+.MusicController {
+  height: 3em;
+  width: 100%;
+  display: flex;
+  padding: 0 2em;
+  color: #68edad;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #5f4b8b;
+  justify-content: space-between;
+  box-shadow: 2px 2px 10px #5f4b8b;
+  span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
